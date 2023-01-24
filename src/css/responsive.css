@@ -1,0 +1,97 @@
+@media (max-width: 800px) {
+    body {
+        background-color: hsl(30, 38%, 92%);
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .fundo {
+        width: 300px;
+        height: 100vh;
+        background-color: hsl(0, 0%, 100%);
+        margin: 20px auto;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .image {
+        background-image: url(../images/image-product-mobile.jpg);
+        border-radius: 15px 15px 0px 0px;
+        background-size: cover;
+        background-position: center bottom;
+        height: 50%;
+        width: 100%;
+    }
+    
+    .produto {
+        padding: 5px 10px 5px 10px;
+        width: 100%;
+    }
+    
+    .produto h1 {
+        font-family: "Fraunces";
+        font-size: 20px;
+        color: hsl(212, 21%, 14%);
+        padding: 0 15px 0 0;
+    }
+    
+    .produto h2 {
+        font-family: "Montserrat";
+        font-size: 10px;
+        font-weight: 700;
+        color: hsl(228, 12%, 48%);
+    }
+    
+    .produto p {
+        font-family: "Montserrat";
+        font-size: 10px;
+        font-weight: 500;
+        color: hsl(228, 12%, 48%);
+        padding: 0px 15px 0px 0px;
+    }
+    
+    .price {
+        display: flex;
+        align-items: center;
+    }
+    
+    .price h3 {
+        font-family: "Fraunces";
+        font-size: 18px;
+        font-weight: 700;
+        color: hsl(158, 36%, 37%);
+        margin: 10px;
+    }
+    
+    .price h4 {
+        font-family: "Montserrat";
+        font-size: 10px;
+        color: hsl(228, 12%, 48%);
+        text-decoration: line-through;
+    }
+    .carrinho {
+        background-color: hsl(158, 36%, 37%);
+        display: flex;
+        flex-direction: row;
+        height: 25px;
+        width: 60%;
+        align-items: center;
+        align-content: center;
+        padding: 5px 20px;
+        margin: 10px 10px 10px 10px;
+        border-radius: 10px;
+    }
+    .carrinho img{
+        height: 15px;
+        margin: 3px;
+    }
+    .carrinho p{
+        color: hsl(0, 0%, 100%);
+        font-family: "Montserrat";
+        font-size: 10px;
+    }
+
+
+
+}
